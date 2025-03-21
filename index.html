@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styleA.css">
+</head>
+<body>
+    <header id="home">
+        <img src="logo-1-copy.pngfjf.png" >
+        <h2>Admission form</h2>
+    </header>
+    <main>
+        <form action="">
+            <section id="basic_information">
+                <p>Basic Detail</p>
+                <label for="first name">Enter first name:</label>
+                <input id="first name" type="text" placeholder="Rohan">
+                <br><br>
+                <label for="last name">Enter last name:</label>
+                <input type=" text" placeholder="kumar">
+                <br><br>
+                <label for="">D.O.B</label>
+                <input type="date" min="2003-01-01" max="2008-01-01">
+                <br><br>
+                
+                <label for="gender">gender:</label>
+                <input type="radio" id="male"  class="gender" name="gender" value="male" >
+                <label for="male">male</label>
+                <input type="radio" id="female"  class="gender" name="gender" value="female">
+                <label for="female">female</label>
+                <input type="radio" id="other" name="gender" class="gender" value="other">
+                <label for="other">other</label>
+                
+                <br><br>
+                
+                <label for="nationality ">Nationality</label>
+                <select name="nationality" id="nationality">
+                    <option value="india">India</option>
+                    <option value="pakistan">India ka tukda</option>
+                    <option value="nepal">nepal</option>
+                    <option value="bangladesh">Bangladesh</option>
+                </select>
+                <br><br>
+                <label for="state">State </label>
+                <select name="state" id="state">
+                    <option value="west bengal">West bengal</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="bihar">Bihar</option>
+                </select>
+                <br><br>
+                <label for="photo">Upload photo:</label>
+                <input type="file">
+                <br><br>
+            </section>
+    
+            <section id="contact_detail">
+                <p>Contact Detail</p>
+                <label for="contact number">Contact Number:</label>
+                <input type="tel">
+                <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="xyz@gmail.com">
+                <br><br>
+                <label for="address">Address:</label>
+                <input type="text">
+                <br><br>
+                
+            </section>
+    
+            <section>
+                <p>Course Detail</p>
+                <label for="course">Course/Program</label>
+                <select name="course" id="course">
+                    <option value="BBA">BBA</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.SC">B.SC</option>
+                    <option value="DHM">DHM</option>
+                </select>
+            </section>
+    
+            <section>
+                <p>Payment Detail</p>
+                <label for="payment">Payment Method:</label>
+                <select name="Payment" id="payment">
+                    <option value="bank">Bank Transfer</option>
+                    <option value="upi">BHIM/UPI</option>
+                    <option value="debit card">Debit card</option>
+                    <option value="credit card">Credit card</option>
+                    <option value="cash">Cash</option>
+                    <br><br>
+                </select>
+    
+            </section>
+    
+            <section>
+                <div id="sub">
+                    <input type="submit">
+                </div>
+                <div id="reset">
+                    <input type="reset">
+                </div>
+            </section>
+
+        </form>
+       
+
+    </main>
+
+    <footer>
+
+        <a href="https://www.instagram.com/theakashkumar_27/" target="_blank">contact developer</a>
+        <!-- <a href="https://www.ricis.ac.in" target="_blank">Contact us</a> -->
+        <a href="#home">Home</a>
+        
+    </footer>
+</body>
+</html>
