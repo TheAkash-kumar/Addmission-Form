@@ -41,6 +41,7 @@ p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    color:#6323BE;
     
 }
 
@@ -71,11 +72,22 @@ footer {
     margin-right: 25%;
 }
 
+input[type="submit"]:hover {
+    background-color:blue;
+    color:azure;
+    cursor: pointer;
+}
+
 #reset {
     text-align: center;
     padding: 10px;
     margin-left: 25%;
     margin-right: 25%;
+}
+input[type="reset"]:hover {
+    background-color: darkred;
+    color: azure;
+    cursor: pointer;
 }
 
 .gender {
@@ -96,5 +108,8 @@ a {
     padding: 10px;
     text-transform: capitalize;
     text-decoration: none;
+    &:hover {
+        text-decoration:underline ;
+    }
 }
   
